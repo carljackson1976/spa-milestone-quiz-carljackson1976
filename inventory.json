@@ -1,0 +1,37 @@
+{
+  "cars": [
+    {
+      "make": "Cadillac",
+      "model": "Cimarron",
+      "image": "../desktop/great-success/cimarron.jpg",
+      "year": "1992",
+      "price": "99",
+      "color": "Black",
+      "purchased": false,
+      "description": "Kinda wondering how we stay in business selling this crap? You should!"
+      
+    },
+    {
+      "make": "Yugo",
+      "model": "GV",
+      "image": "../desktop/great-success/yugo.jpg",
+      "year": "1987",
+      "price": ".50",
+      "color": "Blue",
+      "purchased": false,
+      "description": "Nicknamed 'THE INTIMIDATOR', it strikes fear into the hearts of people who love reliability."
+
+    },
+    {
+      "make": "Pontiac",
+      "model": "Aztek",
+      "image": "../desktop/great-success/aztek.jpg",
+      "year": "2007",
+      "price": "5,999",
+      "color": "Red",
+      "purchased": true,
+      "description": "Someone bought this already, sorry. You'd just be giving up, like they did. Whew!"
+
+    }
+  ]
+}

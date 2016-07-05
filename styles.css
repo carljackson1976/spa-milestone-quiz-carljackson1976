@@ -1,0 +1,63 @@
+body {
+	font-family: arial black, sans-serif;
+	padding: 0;
+	box-sizing: border-box;
+	background: url(http://www.driving.co.uk/s3/st-driving-prod/uploads/2015/12/lancia-beta.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+}
+
+/*----------------------
+----------Nav-----------
+------------------------*/
+
+
+
+/*----------------------
+----------Car Cards----
+------------------------*/
+
+.carCard {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 8px;
+	height: 500px;
+	background-color: white;
+	opacity: 0.8;
+}
+
+.car-title {
+	text-align: center;
+}
+
+.carCard h3 {
+	text-align: center;
+	color: red;
+}
+
+
+/*-----Card Border-----*/
+
+
+
+.Blue {
+	border: 3px solid blue;
+}
+
+.Red {
+	border: 3px solid red;
+}
+
+.Black {
+	border: 3px solid black;
+}
+.image {
+	border: 1px solid black;
+}
+
+.borderThick {
+	border: 2px solid black;
+	background: darkorange;
+}
