@@ -26,6 +26,7 @@ body {
 	height: 500px;
 	background-color: white;
 	opacity: 0.8;
+	word-wrap: break-word;
 }
 
 .car-title {
