@@ -3,7 +3,6 @@
     {
       "make": "Cadillac",
       "model": "Cimarron",
-      "image": "../desktop/great-success/cimarron.jpg",
       "year": "1992",
       "price": "99",
       "color": "Black",
@@ -14,7 +13,6 @@
     {
       "make": "Yugo",
       "model": "GV",
-      "image": "../desktop/great-success/yugo.jpg",
       "year": "1987",
       "price": ".50",
       "color": "Blue",
@@ -25,7 +23,6 @@
     {
       "make": "Pontiac",
       "model": "Aztek",
-      "image": "../desktop/great-success/aztek.jpg",
       "year": "2007",
       "price": "5,999",
       "color": "Red",
