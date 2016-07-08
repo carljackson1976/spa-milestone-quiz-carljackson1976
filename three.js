@@ -14,10 +14,15 @@ var carLot = (function (carStuff) {
       console.log("infoIdThing", infoIdThing);
       console.log("currentCar", currentCar);
       var colorEl = event.currentTarget;
+      console.log("???????", colorEl);
+
       inputBox.value = "";
       inputBox.focus();
       carStuff.removeHighlight();
-      carStuff.addBackgroundAndBorder(currentCar, colorEl);
+      var clickColor = "#0CA9E8";
+      if (colorEl) {
+        carStuff.addBackgroundAndBorder(currentCar, clickColor);
+      }
     };
 
   // clears input/puts cursor to inputBox
@@ -34,4 +39,3 @@ var carLot = (function (carStuff) {
   return carStuff;
 
 })(carLot || {});
-
