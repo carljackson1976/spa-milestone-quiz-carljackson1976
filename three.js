@@ -11,20 +11,24 @@ var carLot = (function (carStuff) {
   function clickHandler(event){
       currentCar = event.currentTarget.id.split("--")[1];
       var infoIdThing = document.getElementById(`info-${currentCar}`);
-      console.log("infoIdThing", infoIdThing);
-      console.log("currentCar", currentCar);
+      //console.log("infoIdThing", infoIdThing);
+      //console.log("currentCar", currentCar);
       var colorEl = event.currentTarget;
+      //console.log("???????", colorEl);
       inputBox.value = "";
       inputBox.focus();
       carStuff.removeHighlight();
-      carStuff.addBackgroundAndBorder(currentCar, colorEl);
+      var clickColor = "#0CA9E8";
+      if (colorEl) {
+        carStuff.addBackgroundAndBorder(currentCar, clickColor);
+      }
     };
 
   // clears input/puts cursor to inputBox
   function editDescription () {
     var infoId = document.getElementById(`info-${currentCar}`);
     if (event.keyCode === 13) {
-    console.log("infoId", infoId);
+    //console.log("infoId", infoId);
       event.preventDefault();
       inputBox.value = '';
     } else {
@@ -34,4 +38,3 @@ var carLot = (function (carStuff) {
   return carStuff;
 
 })(carLot || {});
-
